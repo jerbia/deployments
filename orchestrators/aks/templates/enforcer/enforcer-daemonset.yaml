@@ -83,3 +83,5 @@ spec:
       - name: aquasec-data
         hostPath:
           path: /var/lib/aquasec/data
+          
+          
