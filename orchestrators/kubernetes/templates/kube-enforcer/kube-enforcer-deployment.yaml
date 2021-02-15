@@ -7,6 +7,10 @@ metadata:
     app: aqua-kube-enforcer
 spec:
   replicas: 1
+  limits:
+    memory: 512Mi
+  requests:
+    memory: 256Mi
   template:
     metadata:
       labels:
